@@ -1,0 +1,472 @@
+@media (max-width: 576px) {
+  #wrap-title{
+    font-size: 500%;
+    color:rgb(66, 139, 185);
+    text-align: center;
+    margin-left:5% !important;
+    margin-bottom: 10% !important;
+    }
+    #wrap-texto{
+      font-size: 50%;
+      color: #000000;
+      text-align: center;
+      font-family: 'Poppins', sans-serif;
+      margin-left:8% !important;
+      
+    }
+}
+
+.wrap{
+  width: 100%;
+  background-image: url(imagenes/atractiva-mujer-joven-guante-amarillo-sobre-fondo-azul.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom:12% ;
+  padding-top: 12%;
+  
+
+}
+#wrap-title{
+  font-size: 400%;
+  color:rgb(66, 139, 185);
+  text-align: center;
+  
+  
+  margin-bottom: 3%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+}
+
+#wrap-texto{
+  font-size: 150%;
+  color: #000000;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+#services{
+    position: relative; 
+    text-align: center;
+    background-color:#DFF7FF;
+    font-family: 'Poppins', sans-serif;
+    justify-content:center !important;
+}
+
+
+.container-fluid1{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+.card{
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 4%;
+    
+
+}
+
+#about-us{
+    background-color: #DFF7FF;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+    padding-bottom: 5%;   
+    
+}
+
+.about-usbtn{
+  padding-bottom: 10% !important;
+}
+
+#carousel2{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 60%;
+}
+
+#nosotros{
+    width: 30%;
+    font-size: 130%;
+
+   
+    
+}
+
+.slider{
+  width: 75vw;
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+.slider .slide-track{
+  display: flex;
+  animation: scroll 40s linear infinite;
+  -webkit-animation: scroll 40s linear infinite;
+  width: calc(200px * 20);
+}
+
+.slider .slide{
+  width: 200px;
+}
+
+.slider .slide img{
+width: 100%;
+padding-left: 10%;
+}
+
+@keyframes scroll{
+  0%{
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100%{
+    -webkit-transform: translateX(calc(-200px * 10));
+    transform: translateX(calc(-200px * 10));
+  }
+}
+
+
+
+
+/*------------------- Footer------------------*/
+footer {
+    position: relative;
+    height: 100%;  
+    font-family: 'Poppins', sans-serif;
+    padding: 2% 0;
+    width: 100% !important;
+    
+    
+    
+  }
+
+#copy{
+    text-align: center;
+    padding-top: 6%;
+    }
+
+#redes{
+    padding-top: 10%;
+    margin-top: 10px;
+    align-items: center;
+    }
+.redicon{
+    width: 9%!important;
+    height: 14%!important;
+    
+}
+
+
+
+
+
+
+
+
+
+ /*------------------------------------------ Estilos para el banner de servicios ------------------------------------------*/
+ .banner-servicios {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tu preferencia */
+    background-image: url(imagenes/2020-08_BLOG_Limpiar-vs-Desinfectar.jpg); 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .banner-servicios::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 140, 180, 0.5); /* Cambia el valor de '0.5' para ajustar la transparencia */
+  }
+  .title-banner1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+
+/*---------------------------------------modal---------------------------------------*/
+@media (max-width: 800px) {
+  #btmodal{
+    width: 80% !important;
+  }
+}
+
+
+
+  #btmodal {
+    position: relative;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+    font-size: 140%;
+    margin-top: 5% !important;
+    margin-bottom: 5%;
+    font-family: 'Poppins', sans-serif; 
+  }
+
+  .modal-body{
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+
+  /*-------------------------------------Muestra de servicios--------------------------------------*/
+  @media (max-width: 576px) {
+    .servicetitle1{
+      text-align: center !important;
+      align-content: center !important;
+      align-items: center !important;
+   }
+   .servicetitle2{
+    text-align: center !important;
+    align-content: center !important;
+    align-items: center !important;
+    margin-left: 10%;
+   }
+  }
+
+  .servicetitle1{
+        color: #4756A4;
+        margin-left: 5%;
+        margin-bottom: 2%;
+        font-family: 'Poppins', sans-serif;
+    }
+
+  .serv1{
+   background-color: #BCCAFF;
+   margin-bottom: 8%;
+    } 
+
+    .textserv1{
+     font-size: 130%;
+     text-align: justify;    
+     font-family: 'Poppins', sans-serif;
+   
+    }
+
+    .servicetitle2{
+      margin-top: 6%;
+        color: #4756A4;
+        margin-right: 11%;
+        margin-bottom: 2%;
+        text-align: end;
+        font-family: 'Poppins', sans-serif;   
+    }
+
+  .serv2{
+    margin-bottom: 8%;
+    background-color: #BCCAFF;
+    } 
+
+    .textserv2{
+     text-align: justify;
+     font-size: 130%;
+     font-family: 'Poppins', sans-serif;    
+    }
+
+  
+
+/*--------------------------------------Contacto-------------------------------------*/
+@media screen and (max-width: 576px) {
+#contact {
+  margin-top: 5%;
+  margin-bottom: 4%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  width: 110% !important;
+}
+
+/* Ajusta el ancho y la posición de los elementos de información de contacto */
+.contact-container {
+  flex-direction: column; /* Cambia la disposición a una columna en dispositivos móviles */
+  align-items: center; /* Centra los elementos */
+}
+
+.contact-info {
+  width: 60%; /* Redimensiona el ancho para dispositivos móviles */
+  margin: 5% auto; /* Agrega un margen superior e inferior y centra horizontalmente */
+}
+
+.contacticon {
+  display: flex;
+  margin-bottom: 8%; /* Ajusta el espacio entre los iconos */
+  font-family: 'Poppins', sans-serif;
+  justify-content:baseline ; /* Centra los elementos */
+  align-items:center; /* Centra los elementos */
+  text-align: justify; /* Centra el texto */
+}
+
+
+
+/* Ajustes para el footer en dispositivos móviles */
+footer {
+  padding: 20px 0; /* Agrega espacio alrededor del footer */
+}
+
+/* Ajusta el tamaño de los iconos de redes sociales en el footer */
+.redicon {
+  width: 30px; /* Cambia el tamaño de los iconos */
+}
+}
+
+
+
+
+
+
+ 
+#contact{
+  margin-top: 15%;
+  margin-bottom: 4%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}
+
+
+.contact-info {
+width: 70%;  
+}
+
+.contacticon{
+  display: flex;
+  margin-top: 15%;
+  margin-bottom: 25%;
+  margin-left: 10%;
+  font-family: 'Poppins', sans-serif;
+}
+
+#redes2{
+  margin-left: 20%; 
+  margin-bottom: 25%;
+}
+
+.contact-form {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+
+  
+  /*--------------------------------------Sobre nosotros-------------------------------------*/
+
+  .banner-Nosotros {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Ajusta la altura según tu preferencia */
+    background-image: url(imagenes/colores-limpieza-desinfeccion-destacada.jpg); 
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+  }
+  .banner-Nosotros::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(105, 140, 180, 0.5); /* Cambia el valor de '0.5' para ajustar la transparencia */
+  }
+  .title-banner2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 400%;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+  }
+
+
+.aboutus1{
+align-content: end;
+display: flex;
+text-align: justify;
+margin-bottom: 10%;
+margin-right: 5%;
+margin-top: 10%;
+
+
+} 
+.aboutus1-title{
+padding-left: 5%;
+ padding-right: 5%;
+ text-align: justify;
+ font-size: 140%;
+}
+
+.aboutus2-title{
+margin-left: 5%;
+
+}
+
+.BYA{
+  display: flex;
+  margin-left: 5%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+
+.MYV{
+  text-align: justify;
+  padding-left: 5%;
+ padding-right: 5%;  
+
+}
+
+@media (max-width: 576px) {
+  
+  .aboutus1,
+  .aboutus2 {
+    /* Estilos para ajustar los bloques en dispositivos móviles */
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 25%;
+  }
+
+  .aboutus1{
+    align-items: center;
+    flex-direction: column;
+    margin-right: 10%;
+    text-align: center;
+  }
+  .aboutus1 img{
+    width: 100%;
+   
+  }
+
+  .BYA {
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+
+  .MYV{
+    text-align: justify;
+    margin-top: 15%; 
+  
+  }
+}
